@@ -1,0 +1,282 @@
+body {
+    background: linear-gradient(to bottom, #a3c5e7b9 33%, #ffcccc 94%);
+    margin : auto;
+  }
+  li a:hover {
+    background-color:rgba(212, 221, 233, 0.863);
+    border-radius: 5px;
+  }
+  .box{
+    border-radius: 30px !important;
+  }
+  .active {
+    
+    border-style: solid; 
+    border-color: rgba(165, 202, 211, 0.979);  
+    border-radius: 10px;}
+
+    .home_container {
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-size: cover;
+        border-color: whitesmoke;
+        border-radius: 3%;
+        height: auto;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+    }
+    
+    .home_container:hover {
+        filter: drop-shadow(8px 8px 10px rgb(160, 173, 175));
+    }
+    
+    #intro {
+        width: 50%;
+    }
+    
+    #self {
+        width: 40%;
+        text-align: center;
+    }
+    
+    #self img {
+        max-width: 100%; /* Adjust the max-width as needed to make the image smaller */
+        border-radius: 100%;
+    }
+    
+    #text {
+        padding-top: 5%;
+        color: black;
+        width: 100%;
+    }
+    .section{
+        position: relative;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .px-5:hover {
+        background-color: rgb(168, 173, 202) !important; /* Replace with your desired color code */
+        border-radius: 10px;
+        transform: scale(1.10);
+        color: beige;
+      }
+      
+      #project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px 0px;
+      }
+      .project-heading{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      .project-heading h3{
+        font-size: 2.7rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: rgb(90, 90, 81);
+      }
+      .project-heading span{
+        color: rgb(87, 81, 81);
+      }
+      .card{
+        
+        background-color: rgb(155, 160, 163);
+       
+        border: none;
+        border-radius: 10px;
+      }
+      
+    .btn {
+    background-color:rgb(144, 194, 175);
+  color: #534f4f; /* Text color for good contrast */
+  border: none;
+  padding: 10px ;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 160px; /* Set a fixed width for the button */
+  height: 70px; 
+  font-weight: 600;
+    
+    }
+
+    .btn:hover {
+       /* Change to the desired background color on hover */
+      
+    }
+
+    .btn:active {
+        background-color: #888 /* A different soothing color when pressed */
+      }
+      .custom-btn {
+        display: inline-flex; /* Display as a flex container */
+        align-items: center; /* Align items vertically (in the center) */
+        
+        color: #eee1e1; /* Text color for good contrast */
+        border: none;
+        padding: 10px ; /* Adjust padding to your liking */
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 160px; /* Set a fixed width for the button */
+        height: 70px;
+        font-weight: 600;
+        
+        font-size: 18px; 
+        text-decoration: none; /* Remove default underline for links */
+        text-align: center;
+    }
+    
+    
+    .box2 {
+      background-color: rgba(0,0,0,.5);
+      color: #fff;
+    }
+    .single-info {
+ 
+      margin-bottom: 30px;
+      text-align: center;
+      background: #4a5270;
+      position: relative;
+      border-radius: 10px;
+      height: 250px;
+      width: 300px;
+    }
+    .about-border {
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: #805917;
+      margin: 20px auto;
+    }
+    
+    a{
+      text-decoration: none;
+      color: #111;
+    }
+    .badge {
+      display: inline-block;
+      font-size: .75em;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      border-radius: 0.25rem;
+    }
+    
+    .fw-400 {
+      font-weight: 400 ;
+    }
+    .text-2 {
+      font-size: 14px ;
+      font-size: 0.875rem ;
+    }
+    .footer-top {
+      text-align: center;
+  }
+  
+  .social-icons {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .social-icons li {
+      display: inline-block;
+      margin: 0 10px;
+  }
+  
+  .social-icons a {
+      display: contents;
+  }
+  
+  .social-icons a img {
+      width: 50px;
+      /* Set the width to 20px for the social media icons */
+  }
+  .box:hover {
+    background: linear-gradient(
+          45deg,
+          rgba(126, 165, 201, 0.5),
+          rgba(228, 147, 147, 0.5) 100%
+        );
+    border-radius: 10px;
+    transform: scale(1.05);
+  }
+  .btn1 {
+    background-color: #abcdef; /* Use your soothing background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 10px;
+    border-radius: 20px; /* Rounded corners */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background-color: #789012; /* Change color on hover */
+  }
+  
+  
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: #e9d9d9;
+    border-radius: 30px;
+}
+
+.music {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#playPauseBtn {
+    cursor: pointer;
+    max-width: 90px;
+    height: auto; /* Make the height adjust automatically to maintain aspect ratio */
+    margin-right: 10px; /* Add margin to separate play/pause button and song info */
+}
+
+#songInfo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#songName,
+#artistName {
+    margin: 0; /* Remove default margin */
+}
+
+/* Media query for medium screens */
+@media (max-width: 768px) {
+    #playPauseBtn {
+        max-height: 60px; /* Adjust the max-height for medium screens */
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    #playPauseBtn {
+        max-height: 40px; /* Adjust the max-height for small screens */
+    }
+}
+

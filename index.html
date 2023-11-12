@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/wavesurfer.js@4.0.0/dist/wavesurfer.css">
+
+    <script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js"></script>
+
+    <title>MOSAMMAT NILUFA AKTER</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="N.jpg" width="100" height="70" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 py-1 ">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="home_container">
+        <div id="intro" class="items">
+            <h2 style="font-size: 50px;">About <b style="color: rgb(202, 124, 192);">Me</b></h2>
+            <h2 style="font-weight: 600;color: rgb(105, 158, 112)">Welcome!</h2>
+            <hr>
+            </hr>
+            <div id="text">My name is MOSAMMAT NILUFA AKTER and I am a student of Independent University, Bangladesh. I
+                am currently majoring in Computer Science and minoring in management Information system.
+                <p>I love to learn new things and finding solutions to problems. </p>
+            </div>
+        </div>
+        <div id="self">
+            <img src="self.jpg" alt="Your Image">
+        </div>
+    </div>
+    <div class="container py-3  " style="margin-top: 100px;">
+        <div class="flex d-flex justify-content-center">
+            <div class="row" style="width: 70%;">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="food1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="book image" />
+
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="flower.jpg" class="w-100 shadow-1-strong rounded mb-4 " style="height: 325px ;width: 337px;" />
+
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0" style="height: 325px;">
+                    <img src="fishing.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="book image"
+                        style="height: 100%;" />
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <p class="py-4" style="font-size: medium;">
+            I love trying new food, especially Japanese like sushi! Also, my dad and I do gardening on our balcony. Our
+            favorites are a pretty bougainvillea tree and lots of roses. And guess what? I'm into fishing too! I'm still
+            figuring it out, but it's a chill hobby, especially back in my hometown.</p>
+
+
+
+
+
+        <div class="hero" style="margin-top: 50px";>
+                <div class=" music">
+            <img src="media/play.png" alt="" id="playPauseBtn">
+            <div id="songInfo">
+                <p id="songName">গোধূলির ওপারে</p>
+                <p id="artistName">শূন্য</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container py-3  ">
+
+        <p class="py-4" style="font-size:medium">
+            I'm into music too, no specific genre – if it sounds good to my ears, it's a good song for me. Some of my favorite bands include Shunno, Recall, Arnab, Artcell, and Shironamhin.I've added the song above, and it's one of my favorites.
+
+        </p>
+        
+
+
+    </div>
+    </div>
+    <div>
+        <footer class="page_footer font-small pt-4" style="background-color: rgb(175, 162, 162);">
+            <div class="text-center py-3 text-black">
+                <b>&copy 2023 Copyright: MOSAMMAT NILUFA AKTER, All rights reserved.</b>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+            <script src="https://unpkg.com/howler"></script>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const audio = new Howl({
+                        src: ['media/Shunno - Godhulir Opare (music.com.bd).mp3'],
+                        html5: true,
+                    });
+
+                    const playPauseBtn = document.getElementById('playPauseBtn');
+                    const songName = document.getElementById('songName');
+                    const artistName = document.getElementById('artistName');
+
+                    playPauseBtn.addEventListener('click', function () {
+                        if (audio.playing()) {
+                            audio.pause();
+                            playPauseBtn.src = 'media/play.png';
+                        } else {
+                            audio.play();
+                            playPauseBtn.src = 'media/pause.png';
+                        }
+                    });
+
+                    audio.on('play', function () {
+                        songName.innerHTML = 'গোধূলির ওপারে';
+                        artistName.innerHTML = 'শূন্য';
+                    });
+
+                    audio.on('pause', function () {
+                        songName.innerHTML = 'Paused';
+                        artistName.innerHTML = '';
+                    });
+                });
+            </script>
+</body>
+
+</html>
